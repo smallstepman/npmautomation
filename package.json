@@ -14,9 +14,13 @@
     "release-it": "^15.10.0"
   },
   "release-it": {
-    "npm": true,
+    "npm": {
+      "publish": true
+    },
     "github": {
       "release": true
     }
   }
+
+
 }
