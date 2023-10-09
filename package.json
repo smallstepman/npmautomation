@@ -1,0 +1,22 @@
+{
+  "name": "npmautomation-testing-release-it-package",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release": "release-it"
+  },
+  "devDependencies": {
+    "release-it": "^15.10.0"
+  },
+  "release-it": {
+    "npm": true,
+    "github": {
+      "release": true
+    }
+  }
+}
