@@ -1,6 +1,6 @@
 {
   "name": "npmautomation-testing-release-it-package",
-  "version": "4.0.0",
+  "version": "5.0.0",
   "description": "",
   "main": "index.js",
   "keywords": [],
@@ -49,7 +49,6 @@
       "autoGenerate": true,
       "web": false,
       "tokenRef": "GITHUB_TOKEN"
-
     }
   }
 }
