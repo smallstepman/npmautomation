@@ -45,7 +45,7 @@
       "changelog": "npx auto-changelog --stdout --commit-limit false --unreleased --template https://raw.githubusercontent.com/release-it/release-it/main/templates/changelog-compact.hbs"
     },
     "github": {
-      "release": true
+      "release": true,
       "autoGenerate": true,
       "web": false
     }
