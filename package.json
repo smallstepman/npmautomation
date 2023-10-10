@@ -54,7 +54,7 @@
       "autoGenerate": true,
       "web": false,
       "draft": true,
-      "releaseNotes": "lol"
+      "releaseNotes": "echo lol"
     }
   }
 }
