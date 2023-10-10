@@ -13,7 +13,8 @@
   },
   "devDependencies": {
     "release-it": "^15.10.0",
-    "auto-changelog": "*"
+    "auto-changelog": "*",
+    "news-fragments": "*"
   },
   "auto-changelog": {
     "replaceText": {
