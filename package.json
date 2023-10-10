@@ -35,7 +35,7 @@
         "git checkout release/${version} 2>/dev/null || git checkout -b release/${version}"
       ],
       "after:release": [
-        "gh pr create --base master --title 'chore: release ${version}' --body ''"
+        "gh pr create --base main --title 'chore: release ${version}' --body ''"
       ]
     },
     "npm": {
