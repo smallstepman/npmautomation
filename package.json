@@ -47,7 +47,9 @@
     "github": {
       "release": true,
       "autoGenerate": true,
-      "web": false
+      "web": false,
+      "tokenRef": "GITHUB_TOKEN"
+
     }
   }
 }
