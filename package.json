@@ -13,8 +13,7 @@
   },
   "devDependencies": {
     "release-it": "^15.10.0",
-    "auto-changelog": "*",
-    "news-fragments": "*"
+    "auto-changelog": "*"
   },
   "auto-changelog": {
     "replaceText": {
@@ -37,7 +36,8 @@
       ],
       "after:release": [
         "gh pr create --base main --title 'chore: release ${version}' --body ''"
-      ]
+      ],
+      "after:bump": "npx auto-changelog -p"
     },
     "npm": {
       "publish": true,
@@ -45,9 +45,6 @@
     },
     "github": {
       "release": true
-    },
-    "plugins": {
-      "news-fragments": {}
     }
   }
 }
