@@ -12,7 +12,7 @@
     "merge-main-and-release": "release-it"
   },
   "devDependencies": {
-    "release-it": "^16.2.0",
+    "release-it": "*",
     "auto-changelog": "*"
   },
   "auto-changelog": {
