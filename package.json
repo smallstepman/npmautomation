@@ -26,7 +26,7 @@
       "before:init": [
         "gh auth status || gh auth login",
         "npm whoami || npm login",
-        "export GITHUB_TOKEN=$(gh auth token)"
+        "test -z $GITHUB_TOKEN || test $GITHUB_TOKEN = $(gh auth status --show-token) || exit 1"
       ],
       "before:merge-main-and-release": [
         "git checkout main",
