@@ -44,6 +44,9 @@
     },
     "github": {
       "release": true
+    },
+    "plugins": {
+      "news-fragments": {}
     }
   }
 }
